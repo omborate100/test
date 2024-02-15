@@ -26,7 +26,7 @@ academy_table = dynamodb.Table('academys')
 academyPayments_table = dynamodb.Table('academyPayments')
 standard_user_table = dynamodb.Table('standard-user')
 
-admin_email = 'sales@capriolesportstech.com'
+//admin_email = 'sales@capriolesportstech.com'
 
 # Helper class to convert a DynamoDB item to JSON.
 class DecimalEncoder(json.JSONEncoder):
